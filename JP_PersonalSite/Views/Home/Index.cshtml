@@ -1,0 +1,170 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- ======= About Section ======= -->
+<div id="about" class="paddsection">
+    <div class="container">
+        <div class="row justify-content-between">
+
+            <div class="col-lg-4 ">
+                <div class="div-img-bg">
+                    <div class="about-img">
+
+
+
+                        <img src="~/assets/img/jonpedroza.jpg" id="jonimg" class="img-responsive img-flip" alt="me">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="about-descr">
+
+                    <h2 class="p-heading">Get to Know Me</h2>
+                    <p class="separator">I am a proud Kansas City based Full-Stack Developer with a background in freelance photography. I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO. I am skilled at writing well-designed, testable and efficient code using current best practices in Web development. I am a fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.  </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div><!-- End About Section -->
+<!-- ======= Journal Section ======= -->
+<div id="journal" class="text-left paddsection">
+
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Need a Hand?</h2>
+        </div>
+    </div>
+
+    <div class="container" id="indexpitch">
+        <div class="journal-block">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="journal-info">
+
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/kansascity2.png" id="indeximg" class="img-responsive" alt="img-Wedding-1"></a>
+
+                        <div class="journal-txt">
+
+                            <h4><a asp-controller="Home" asp-action="Index">Live in the Kansas City area?</a></h4>
+                            <p class="separator">
+                                I am flexibly based in the Kansas City area! Kansas? Missouri? Not a problem.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="journal-info">
+
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/frustrated.png" id="indeximg" class="img-responsive" alt="img"></a>
+
+                        <div class="journal-txt">
+
+                            <h4><a asp-controller ="Home" asp-action="Index">Frustrated?</a></h4>
+                            <p class="separator">
+                                To ensure a quality, and streamline experience I offer a complete "Front-End" to "Back-End" service with no hassel on you to learn a new language.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="journal-info">
+
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/wedding.png" id="indeximg" class="img-responsive" alt="img"></a>
+
+                        <div class="journal-txt">
+
+                            <h4><a asp-controller="Home" asp-action="Index">We Offer Photography!</a></h4>
+                            <p class="separator">
+                                Need a photoshoot? No problem. We offer a reasonable rate for our photography service perfect for any occasion!
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div><!-- End Journal Section -->
+<!-- ======= Contact Section ======= -->
+<div id="contact" class="paddsection">
+    <div class="container">
+        <div class="contact-block1">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="contact-contact">
+
+                        <h2 class="mb-30">GET IN TOUCH</h2>
+
+                        <ul class="contact-details">
+                            <li><span>23 Main, Street</span></li>
+                            <li><span>New York, United States</span></li>
+                            <li><span>+88 01912704287</span></li>
+                            <li><span>example@example.com</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form action="https://formsubmit.co/aac2f0e4fadd14a11b06e39f59437265" method="post" role="form" class="php-email-form">
+                        <div class="row gy-3">
+
+                            <div class="col-lg-6">
+                                <div class="form-group contact-block1">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+
+                            <div class="mt-0">
+                                <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- End Contact Section -->
+
+
