@@ -5,6 +5,18 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+/*--------------------------------------------------------------
+# Associates
+--------------------------------------------------------------*/
+
+#associate{
+    border: 10px solid goldenrod; 
+    border-radius: 10px;
+
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -64,6 +76,11 @@ p {
 ::selection {
   background: #b87e7e;
   color: #fff;
+}
+
+#btnLink{
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -501,6 +518,7 @@ p {
 div #indeximg{
   border: 5px solid orange;
   border-radius: 10px;
+  margin-left: 18px;
 }
 div #indexpitch{
   border: 10px solid rgb(243, 208, 93) ;
@@ -518,7 +536,7 @@ div #indexpitch{
   width: 100%;
   height: auto;
   background: #f0e294a6;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 #about .div-img-bg {
@@ -995,9 +1013,20 @@ div #indexpitch{
 
 /* Resume Section */
 
+img #resume{
+    padding-top: 100px;
+}
+
+#resumeImg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 #resumes{
   border: 9px solid goldenrod;
   border-radius: 10px;
+  
 }
 
 #button{
@@ -1007,6 +1036,7 @@ div #indexpitch{
   font-weight: 600;
   margin-top: 10px;
   border-radius: 4px;
+  margin-bottom: 10px;
   
   
 } 

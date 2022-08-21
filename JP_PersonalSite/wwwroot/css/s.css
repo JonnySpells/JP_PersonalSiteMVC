@@ -55,6 +55,10 @@ p {
   line-height: 28px;
 }
 
+img.container{
+    padding-top: 100px;
+}
+
 ::-moz-selection {
   background: #b8a07e;
   color: #fff;
@@ -494,11 +498,15 @@ p {
   height: auto;
   background: #f7f7f7;
   padding-top: 100px;
+  
 }
 
+
+
+
 #resume .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+    padding-bottom: 30px;
+    border: 20px solid #b8a07e;
 }
 
 #resume .div-img-bg .about-img img {

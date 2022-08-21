@@ -7,7 +7,14 @@
     <UserSecretsId>aspnet-JP_PersonalSite-CE479FB0-C6E8-4A6F-95DC-4721262565C1</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
+    <Compile Remove="Data\**" />
+    <Content Remove="Data\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <None Remove="Data\**" />
+  </ItemGroup>-->
+
+  <!--<ItemGroup>
     <Content Remove="wwwroot\assets\css\style.css" />
     <Content Remove="wwwroot\assets\img\avatar.jpg" />
     <Content Remove="wwwroot\assets\img\frustrated.png" />
@@ -107,7 +114,7 @@
     <Content Remove="wwwroot\forms\contact.php" />
     <Content Remove="wwwroot\forms\Readme.txt" />
     <Content Remove="wwwroot\forms\resumeLink\JonPedrozaResume.docx" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <Content Include="_Archive\.vscode\settings.json" />
@@ -118,6 +125,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
+    <PackageReference Include="microsoft.data.sqlclient" Version="4.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
@@ -220,8 +228,7 @@
     <None Include="wwwroot\assets\vendor\typed.js\typed.js" />
     <None Include="wwwroot\assets\vendor\typed.js\typed.min.js" />
     <None Include="wwwroot\assets\vendor\typed.js\typed.min.js.map" />
-    <None Include="wwwroot\css\style.css" />
-    <None Include="wwwroot\css\style2.css" />
+    <None Include="wwwroot\css\s.css" />
     <None Include="wwwroot\forms\contact.php" />
     <None Include="wwwroot\forms\Readme.txt" />
     <None Include="wwwroot\forms\resumeLink\JonPedrozaResume.docx" />
